@@ -1,0 +1,9 @@
+SYSTEM:
+  SIGMA_NOISE: 0.005
+  DIM_LAMBDA: 50
+  TYPE_LAMBDA: "all_zero"
+  X_RANGE: 
+  - -4
+  - 4
+TRAINING:
+  N_MEASUREMENTS: 200

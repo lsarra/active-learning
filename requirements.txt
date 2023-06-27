@@ -1,0 +1,14 @@
+tensorflow
+tensorflow_probability
+numpy
+scipy
+matplotlib
+jupyter
+tqdm
+papermill
+ipywidgets
+ipyparallel
+ipykernel
+yacs
+h5py
+scikit-learn

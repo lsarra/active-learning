@@ -1,0 +1,37 @@
+LEARNER:
+  DISCRETE:
+    ENABLED: true
+    LAMBDA1_RANGE:
+    - -3.5
+    - 3.5
+    - 45
+    LAMBDA2_RANGE:
+    - -3.5
+    - 3.5
+    - 45
+    X_RANGE:
+    - -6
+    - 6
+    - 55
+    Y1_RANGE:
+    - -1.2
+    - 1.2
+    - 54
+    Y2_RANGE:
+    - -1.2
+    - 1.2
+    - 54
+  POSTERIOR:
+    TYPE: NormalizingFlow
+METRICS:
+  EXP_IG:
+    N_TRAIN: 3000
+SYSTEM:
+  TYPE: Cavities
+  COUPLING: 2.
+  SIGMA_NOISE: 0.05
+  X_RANGE:
+  - -6
+  - 6
+TRAINING:
+  N_MEASUREMENTS: 50

@@ -1,0 +1,44 @@
+LEARNER:
+  DISCRETE:
+    ENABLED: false
+    LAMBDA1_RANGE:
+    - -3.5
+    - 3.5
+    - 45
+    LAMBDA2_RANGE:
+    - -3.5
+    - 3.5
+    - 45
+    X_RANGE:
+    - -6
+    - 6
+    - 55
+    Y1_RANGE:
+    - -1.2
+    - 1.2
+    - 54
+    Y2_RANGE:
+    - -1.2
+    - 1.2
+    - 54
+  POSTERIOR:
+    TYPE: NormalizingFlow
+ADVISOR:
+  BATCH_SIZE: 700
+  N_TRAIN: 2500
+METRICS:
+  EXP_IG:
+    N_TRAIN: 1500
+SYSTEM:
+  DIM_LAMBDA: 4
+  TYPE: QubitsBinomial
+  TYPE_LAMBDA: all_ones
+  REAL_LAMBDA: [1.16274736, 1.00325196, 1.04485431, 0.91094373]
+  X_RANGE:
+  - 0
+  - 5
+  COUPLING: 1.7
+  BINOMIAL:
+    N_COUNTS: 100
+TRAINING:
+  N_MEASUREMENTS: 100
