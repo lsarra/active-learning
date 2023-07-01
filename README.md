@@ -101,10 +101,10 @@ The code has been tested on Python 3.9.
 ---
 ## Citation
 If you find this code useful in your work, please cite our article
-_"Deep Bayesian Experimental Design for Quantum Many-body Systems"_, Leopoldo Sarra, Florian Marquardt, arXiv:2306.xxxx
+_"Deep Bayesian Experimental Design for Quantum Many-body Systems"_, Leopoldo Sarra, Florian Marquardt, arXiv:2306.14510 
 
 available on
 
-https://arxiv.org/abs/2306.xxxx
+https://arxiv.org/abs/2306.14510 
 
 This work is licensed under a MIT License.
